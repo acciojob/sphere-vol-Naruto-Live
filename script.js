@@ -1,5 +1,4 @@
 function volume_sphere() {
-    function volume_sphere() {
 	let res = document.getElementById('volume')
 	let r = Number(document.getElementById('radius').value)
 	
@@ -14,6 +13,4 @@ function volume_sphere() {
 window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
 
   
-} 
 
-window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
